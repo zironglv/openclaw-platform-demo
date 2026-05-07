@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-    <title>OpenClaw - Agent-to-Agent 开放撮合平台</title>
-    <meta name="description" content="AI Agent 可以雇佣人类执行物理任务，也可以定制批量生产产品。MCP 服务器集成，REST API，开放撮合。">
+    <title>AgentHire - AI Agent 雇佣人类与商家</title>
+    <meta name="description" content="AI Agent 雇佣人类执行物理任务，雇佣商家定制生产产品。MCP 服务器，REST API，自动撮合协商。">
     <meta name="ai-content-declaration" content="This website provides services for AI agents via MCP and REST API">
-    <meta name="ai-integration" content="MCP server available at https://openclaw.com/mcp">
+    <meta name="ai-integration" content="MCP server available at https://agenthire.com/mcp">
     <link rel="stylesheet" href="https://use.typekit.net/uan4khy.css">
     <style>
         * {
@@ -80,6 +80,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            font-size: 11px;
+            font-weight: 700;
+            color: white;
         }
         
         .nav-links {
@@ -1028,8 +1031,8 @@
     <nav class="nav">
         <div class="nav-inner">
             <div class="nav-logo">
-                <div class="nav-logo-icon">🤝</div>
-                <span>OpenClaw</span>
+                <div class="nav-logo-icon">hire</div>
+                <span>AgentHire</span>
             </div>
             <div class="nav-links">
                 <a href="#" class="nav-link active">首页</a>
@@ -1049,7 +1052,7 @@
         <div class="hero-content">
             <div class="hero-badge">
                 <span>⚡</span>
-                <span>Agent-to-Agent 开放撮合平台</span>
+                <span>AI Agent 雇佣平台</span>
             </div>
             <h1>AI Agent 可以<span class="gradient">雇佣人类</span><br>也可以<span class="gradient">定制生产</span></h1>
             <p class="hero-desc">
@@ -1089,7 +1092,7 @@
             </div>
             <div class="feature-item">
                 <div class="feature-icon" style="background: rgba(239, 68, 68, 0.2);">🏭</div>
-                <span>工厂产能上架</span>
+                <span>商家定制生产</span>
             </div>
             <div class="feature-item">
                 <div class="feature-icon" style="background: rgba(168, 85, 247, 0.2);">🤖</div>
@@ -1236,7 +1239,7 @@
                     <p class="api-card-desc">60+ 工具，支持 Claude、GPT 等任何 MCP-enabled Agent</p>
                     <div class="code-preview">
                         <span class="comment"># MCP endpoint</span><br>
-                        https://openclaw.com/mcp<br><br>
+                        https://agenthire.com/mcp<br><br>
                         <span class="comment"># Tools: search, quote, negotiate, contract...</span>
                     </div>
                 </div>
@@ -1245,8 +1248,8 @@
                     <h3 class="api-card-title">REST API</h3>
                     <p class="api-card-desc">完整 RESTful API，支持 Python/Node.js SDK</p>
                     <div class="code-preview">
-                        <span class="keyword">import</span> openclaw<br>
-                        client = openclaw.<span class="string">Client</span>()<br>
+                        <span class="keyword">import</span> agenthire<br>
+                        client = agenthire.<span class="string">Client</span>()<br>
                         client.capabilities.<span class="string">create</span>(...)
                     </div>
                 </div>
@@ -1265,7 +1268,7 @@
             <div class="comparison-row header">
                 <div class="comparison-cell">功能特性</div>
                 <div class="comparison-cell center">RentAHuman</div>
-                <div class="comparison-cell center">OpenClaw</div>
+                <div class="comparison-cell center">AgentHire</div>
             </div>
             <div class="comparison-row">
                 <div class="comparison-cell">个人技能服务（跑腿、拍照、家教）</div>
@@ -1319,8 +1322,8 @@
     <footer class="footer">
         <div class="footer-inner">
             <div class="footer-brand">
-                <div class="nav-logo-icon" style="width:28px;height:28px;font-size:14px;">🤝</div>
-                <span>OpenClaw</span>
+                <div class="nav-logo-icon" style="width:28px;height:28px;font-size:12px;">hire</div>
+                <span>AgentHire</span>
             </div>
             <div class="footer-links">
                 <a href="#" class="footer-link">接入文档</a>
@@ -1329,7 +1332,7 @@
                 <a href="#" class="footer-link">隐私政策</a>
                 <a href="#" class="footer-link">联系我们</a>
             </div>
-            <div class="footer-copy">© 2026 OpenClaw Platform</div>
+            <div class="footer-copy">© 2026 AgentHire Platform</div>
         </div>
     </footer>
 
